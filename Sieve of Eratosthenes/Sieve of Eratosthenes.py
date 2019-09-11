@@ -8,7 +8,7 @@ def main():
     p = 2
     i = 1
     n = int(input('Insert the n value:\n'))    
-    
+    # creating a list of all integers below "n"
     list_n = [number for number in range(2,n+1)]
     limit = int(math.sqrt(n))
 
